@@ -22,3 +22,6 @@
 	path = bundle/easytags
 	url = https://github.com/xolox/vim-easytags.git
 	irgnore = dirty
+[submodule "bundle/solarized"]
+	path = bundle/solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
