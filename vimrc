@@ -73,3 +73,9 @@ set listchars=tab:▸\ ,eol:¬
 :let g:easytags_dynamic_files = 1
 :let g:easytags_on_cursorhold = 0 
 :let g:easytags_auto_update = 0 " turn off updateing when stoping typing
+
+" jedi-vim
+""""""""""""""
+let g:jedi#use_tabs_not_buffers = 0
+let g:jedi#popup_on_dot = 0
+let g:jedi#show_function_definition = "0"
