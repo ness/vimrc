@@ -1,18 +1,24 @@
 [submodule "bundle/localvimrc"]
 	path = bundle/localvimrc
 	url = http://github.com/embear/vim-localvimrc
+	irgnore = dirty
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = http://github.com/scrooloose/nerdtree.git
+	irgnore = dirty
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
 	url = http://github.com/msanders/snipmate.vim.git
+	irgnore = dirty
 [submodule "bundle/surround"]
 	path = bundle/surround
 	url = http://github.com/tpope/vim-surround.git
+	irgnore = dirty
 [submodule "_pathogen"]
 	path = _pathogen
 	url = http://github.com/tpope/vim-pathogen.git
+	irgnore = dirty
 [submodule "bundle/easytags"]
 	path = bundle/easytags
 	url = https://github.com/xolox/vim-easytags.git
+	irgnore = dirty
