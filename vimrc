@@ -1,6 +1,7 @@
 "loading bundles - plugins
 call pathogen#infect()
 
+set visualbell "no more beeps \o/
 "context around cursor
 set scrolloff=3
 
@@ -11,6 +12,9 @@ set showmatch
 
 "linenumbers
 set number
+
+set wildmode=full
+set wildmenu
 
 "leave no *~ files back
 set directory=~/tmp/vim
@@ -26,9 +30,13 @@ syntax on
 
 "colors and scheme
 set background=dark
-colorscheme desert
+colorscheme solarized
 
-"plugins
+"font
+set gfn=Terminus\ 12
+
+"plugins settings
+
 set nocompatible
 filetype on
 filetype plugin on
@@ -42,8 +50,26 @@ filetype indent on
 let mapleader = ","
 
 "stop highlighting search
-nmap <silent> <leader>n :silent :nohlsearch<CR>
 nnoremap <leader><space> :noh<cr>
 
-"use Shift-Space to send ESC
+"use Shift-Space to send ESCqqqq
 "imap <S-Space> <Esc>
+
+"list
+"toggle list
+nmap <leader>l :set list!<cr>
+set listchars=tab:▸\ ,eol:¬
+
+""""""""""""""
+"
+" Plugins
+"
+"""""""""""""
+
+" easytag 
+"""""""""""""
+:set tags=./.tags;,~/tmp/.tags
+:autocmd FileType python let g:easytags_cmd = 'ctags --python-kinds=-i'
+:let g:easytags_dynamic_files = 1
+:let g:easytags_on_cursorhold = 0 
+:let g:easytags_auto_update = 0 " turn off updateing when stoping typing
