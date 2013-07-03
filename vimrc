@@ -16,6 +16,9 @@ set number
 set wildmode=full
 set wildmenu
 
+set guioptions-=m  "remove menu bar
+set guioptions-=T  "remove toolbar
+
 "leave no *~ files back
 set directory=~/tmp/vim
 set backupdir=~/tmp/vim
@@ -34,6 +37,8 @@ colorscheme solarized
 
 "font
 set gfn=Terminus\ 12
+"set gfn=Inconsolata\-dz\ 10
+"set gfn=Source\ Code\ Pro\ 11
 
 "plugins settings
 
