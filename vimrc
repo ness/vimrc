@@ -91,31 +91,3 @@ set listchars=tab:▸\ ,eol:¬
 "spellchecking
 nmap <silent> <leader>s :set spell!<CR>
 set spelllang=de_DE
-
-""""""""""""""
-"
-" NERDTree
-"
-""""""""""""""
-let NERDTreeIgnore=['*.pyc']
-
-""""""""""""""
-"
-" Plugins
-"
-""""""""""""""
-
-" easytag 
-"""""""""""""
-":set tags=./.tags;,~/tmp/.tags
-":autocmd FileType python let g:easytags_cmd = 'ctags --python-kinds=-i'
-:let g:easytags_dynamic_files = 1
-:let g:easytags_on_cursorhold = 0 
-:let g:easytags_auto_update = 0 " turn off updateing when stoping typing
-
-" jedi-vim
-""""""""""""""
-let g:jedi#use_tabs_not_buffers = 0
-let g:jedi#popup_on_dot = 0
-let g:jedi#show_function_definition = "1"
-let g:jedi#use_splits_not_buffers="top"
