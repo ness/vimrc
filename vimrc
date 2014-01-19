@@ -93,9 +93,16 @@ set spelllang=de_DE
 
 """"""""""""""
 "
+" NERDTree
+"
+""""""""""""""
+let NERDTreeIgnore=['*.pyc']
+
+""""""""""""""
+"
 " Plugins
 "
-"""""""""""""
+""""""""""""""
 
 " easytag 
 """""""""""""
