@@ -91,3 +91,8 @@ set listchars=tab:▸\ ,eol:¬
 "spellchecking
 nmap <silent> <leader>s :set spell!<CR>
 set spelllang=de_DE
+
+" localvimrc
+"""""""""""""""""""
+set viminfo='100,<50,s10,h,!
+let g:localvimrc_persistent=1
