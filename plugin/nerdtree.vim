@@ -1,3 +1,3 @@
 " NERDTree
 """"""""""""""
-let NERDTreeIgnore=['*.pyc']
+let NERDTreeIgnore=['.pyc']
