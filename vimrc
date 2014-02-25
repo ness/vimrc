@@ -65,10 +65,9 @@ set laststatus=2 " always display statusline
 set statusline=
 set statusline+=%m  "modifiers
 set statusline+=b:\ %n "buffer
-set statusline+=\ f:\ %0.30f "file
+set statusline+=\ f:%y\ %0.30f "filetype file
 set statusline+=%=        " Switch to the right side
-set statusline+=\ [line\ %l\/%L] "current line and total lines
-set statusline+=%y
+set statusline+=\ [line\ %l(%c)\/%L] "current line (characters of line) and total lines
 
 """""""""""""""
 "
