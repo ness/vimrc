@@ -95,3 +95,5 @@ set spelllang=de_DE
 """""""""""""""""""
 set viminfo='100,<50,s10,h,!
 let g:localvimrc_persistent=1
+" turn of loading .lvimrc in a sandbox, autocmd will not work from the .lvimrc
+let g:localvimrc_sandbox=0
