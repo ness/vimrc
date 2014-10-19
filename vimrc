@@ -37,7 +37,8 @@ set background=dark
 colorscheme solarized
 
 "font
-set gfn=Terminus\ 12
+set gfn=Terminus\ 14
+" set gfn=Terminus\ 12
 "set gfn=Inconsolata\-dz\ 10
 "set gfn=Source\ Code\ Pro\ 11
 
