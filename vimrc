@@ -98,3 +98,29 @@ set viminfo='100,<50,s10,h,!
 let g:localvimrc_persistent=1
 " turn of loading .lvimrc in a sandbox, autocmd will not work from the .lvimrc
 let g:localvimrc_sandbox=0
+
+"""""""""""""""""""
+"
+" Testbed
+"
+"""""""""""""""""""
+
+" relative line numbers
+" 
+"""""""""""""""""""
+
+function! NumberToggle()
+  if(&relativenumber == 1)
+    set number
+  else
+    set relativenumber
+  endif
+endfunc
+
+nnoremap <C-n> :call NumberToggle()<cr>
+
+:au FocusLost * :set number
+:au FocusGained * :set relativenumber
+
+autocmd InsertEnter * :set number
+autocmd InsertLeave * :set relativenumber
