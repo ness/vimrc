@@ -6,10 +6,6 @@
 	path = bundle/nerdtree
 	url = http://github.com/scrooloose/nerdtree.git
 	irgnore = dirty
-[submodule "bundle/snipmate"]
-	path = bundle/snipmate
-	url = http://github.com/msanders/snipmate.vim.git
-	irgnore = dirty
 [submodule "bundle/surround"]
 	path = bundle/surround
 	url = http://github.com/tpope/vim-surround.git
