@@ -1,5 +1,3 @@
-
-
 " ---------------------------------------------------------
 " Add the virtualenv's site-packages to vim path
 " shamelessly stolen from:
