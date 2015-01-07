@@ -48,3 +48,6 @@
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = https://github.com/majutsushi/tagbar
+[submodule "bundle/test_vim"]
+	path = bundle/test_vim
+	url = https://github.com/janko-m/vim-test
