@@ -10,22 +10,12 @@ set showmatch
 " relative line numbers
 " 
 """""""""""""""""""
-
-function! NumberToggle()
-  if(&relativenumber == 1)
-    set number
-  else
-    set relativenumber
-  endif
-endfunc
-
-nnoremap <C-n> :call NumberToggle()<cr>
-
-:au FocusLost * :set number
-:au FocusGained * :set relativenumber
-
-autocmd InsertEnter * :set number
+autocmd FocusLost * :set norelativenumber
+autocmd FocusGained * :set relativenumber
+autocmd InsertEnter * :set norelativenumber
 autocmd InsertLeave * :set relativenumber
+nnoremap <silent><C-n> :set relativenumber! relativenumber?
+
 set number
 
 set wildmode=full
