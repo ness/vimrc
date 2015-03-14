@@ -54,3 +54,6 @@
 [submodule "bundle/autopep8"]
 	path = bundle/autopep8
 	url = https://github.com/tell-k/vim-autopep8
+[submodule "bundle/test_vim"]
+	path = bundle/test_vim
+	url = https://github.com/janko-m/vim-test
