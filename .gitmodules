@@ -60,3 +60,15 @@
 [submodule "bundle/move"]
 	path = bundle/move
 	url = https://github.com/matze/vim-move
+[submodule "bundle/vdebug"]
+	path = bundle/vdebug
+	url = https://github.com/joonty/vdebug
+[submodule "bundle/unite"]
+	path = bundle/unite
+	url = https://github.com/Shougo/unite.vim
+[submodule "bundle/vimproc"]
+	path = bundle/vimproc
+	url = https://github.com/Shougo/vimproc.vim
+[submodule "bundle/unite-tag"]
+	path = bundle/unite-tag
+	url = https://github.com/tsukkee/unite-tag
