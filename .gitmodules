@@ -72,3 +72,6 @@
 [submodule "bundle/unite-tag"]
 	path = bundle/unite-tag
 	url = https://github.com/tsukkee/unite-tag
+[submodule "bundle/vinegar-nerdtree"]
+	path = bundle/vinegar-nerdtree
+	url = https://github.com/dhruvasagar/vim-vinegar
