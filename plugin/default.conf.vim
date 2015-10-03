@@ -38,7 +38,7 @@ syntax on
 
 "colors and scheme
 set background=dark
-colorscheme solarized
+colorscheme railscasts
 
 "font
 set guifont=Monaco\ 12
