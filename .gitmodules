@@ -81,3 +81,6 @@
 [submodule "bundle/gitgutter"]
 	path = bundle/gitgutter
 	url = https://github.com/airblade/vim-gitgutter
+[submodule "bundle/railscasts_colors"]
+	path = bundle/railscasts_colors
+	url = https://github.com/jpo/vim-railscasts-theme
