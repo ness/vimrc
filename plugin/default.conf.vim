@@ -41,9 +41,9 @@ set background=dark
 colorscheme railscasts
 
 "font
-set guifont=Monaco\ 12
+" set guifont=Monaco\ 12
 " set gfn=Terminus\ 12
-"set gfn=Inconsolata\-dz\ 10
+set gfn=Inconsolata\-g\ 11
 "set gfn=Source\ Code\ Pro\ 11
 
 """""""""""""""
@@ -90,6 +90,15 @@ set viminfo='100,<50,s10,h,!
 let g:localvimrc_persistent=1
 " turn of loading .lvimrc in a sandbox, autocmd will not work from the .lvimrc
 let g:localvimrc_sandbox=0
+
+"
+" show cursorline
+" """""""""""""""""
+augroup CursorLine
+	au!
+	au VimEnter,WinEnter,BufWinEnter * setlocal cursorline
+	au WinLeave * setlocal nocursorline
+augroup END
 
 " remove trailing whitespaces
 "
