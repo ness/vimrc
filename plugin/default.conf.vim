@@ -77,7 +77,7 @@ nnoremap <leader><space> :noh<cr>
 "list
 "toggle list
 nmap <leader>l :set list!<cr>
-set listchars=tab:▸\ ,eol:¬
+set listchars=space:·,tab:»\ ,eol:¬
 
 "spellchecking
 nmap <silent> <leader>s :set spell!<CR>
