@@ -46,6 +46,8 @@ colorscheme railscasts
 set gfn=Inconsolata\-g\ 11
 "set gfn=Source\ Code\ Pro\ 11
 
+set ignorecase " ignores case everywhere commands and completions
+
 """""""""""""""
 "
 " Ruler
