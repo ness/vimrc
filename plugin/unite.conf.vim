@@ -8,7 +8,8 @@ call unite#custom#source(
 call unite#filters#sorter_default#use(['sorter_selecta'])
 
 nnoremap <leader>lf :Unite -start-insert file_rec/async:!<cr>
-nnoremap <leader>lb :Unite buffer<cr>
+nnoremap <leader>lb :Unite -start-insert buffer<cr>
+nnoremap <leader>lt :Unite -start-insert tag<cr>
 
 function! UltiSnipsCallUnite()
     Unite -start-insert -winheight=10 -immediately -no-empty ultisnips
