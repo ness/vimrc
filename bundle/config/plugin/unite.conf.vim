@@ -17,4 +17,4 @@ function! UltiSnipsCallUnite()
 endfunction
 nnoremap <leader>lsn a<C-R>=(pumvisible()? "\<LT>C-E>":"")<CR><C-R>=UltiSnipsCallUnite()<CR>
 nnoremap <leader>lts :Unite script:python:/home/nessuno/code/python/unite-scripts/list_files.py<cr>
-nnoremap <leader>lp :Unite -start-insert script:bash:/home/nessuno/bin/projects/filenames_unite_client.sh <cr>
+nnoremap <leader>lpp :Unite -start-insert script:bash:/home/ness/bin/list_files.sh<cr>
