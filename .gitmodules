@@ -78,3 +78,6 @@
 [submodule "bundle/railscasts_colors"]
 	path = bundle/railscasts_colors
 	url = https://github.com/jpo/vim-railscasts-theme
+[submodule "bundle/commentary"]
+	path = bundle/commentary
+	url = https://github.com/tpope/vim-commentary
