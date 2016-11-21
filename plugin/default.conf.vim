@@ -48,6 +48,17 @@ set gfn=Inconsolata\-g\ 11
 
 set ignorecase " ignores case everywhere commands and completions
 
+" Undo
+""""""""""""""""""
+
+" Persistent undo
+set undofile
+set undodir=$HOME/.vim/undo
+
+set undolevels=1000
+set undoreload=10000
+
+
 """""""""""""""
 "
 " Ruler
