@@ -2,10 +2,6 @@
 	path = bundle/localvimrc
 	url = http://github.com/embear/vim-localvimrc
 	irgnore = dirty
-[submodule "bundle/nerdtree"]
-	path = bundle/nerdtree
-	url = http://github.com/scrooloose/nerdtree.git
-	irgnore = dirty
 [submodule "bundle/surround"]
 	path = bundle/surround
 	url = http://github.com/tpope/vim-surround.git
@@ -84,3 +80,6 @@
 [submodule "bundle/lsp"]
 	path = bundle/lsp
 	url = https://github.com/prabirshrestha/vim-lsp
+[submodule "pack/bundle/start/nerdtree"]
+	path = pack/bundle/start/nerdtree
+	url = http://github.com/scrooloose/nerdtree.git
