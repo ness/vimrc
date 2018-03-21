@@ -81,3 +81,6 @@
 [submodule "bundle/commentary"]
 	path = bundle/commentary
 	url = https://github.com/tpope/vim-commentary
+[submodule "bundle/lsp"]
+	path = bundle/lsp
+	url = https://github.com/prabirshrestha/vim-lsp
