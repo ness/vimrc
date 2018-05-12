@@ -38,9 +38,6 @@
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = https://github.com/majutsushi/tagbar
-[submodule "bundle/ag"]
-	path = bundle/ag
-	url = https://github.com/rking/ag.vim
 [submodule "bundle/autopep8"]
 	path = bundle/autopep8
 	url = https://github.com/tell-k/vim-autopep8
@@ -83,3 +80,6 @@
 [submodule "pack/bundle/start/vinegar-nerdtree"]
 	path = pack/bundle/start/vinegar-nerdtree
 	url = https://github.com/dhruvasagar/vim-vinegar
+[submodule "pack/bundle/start/ack"]
+	path = pack/bundle/start/ack
+	url = https://github.com/mileszs/ack.vim
