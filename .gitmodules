@@ -80,6 +80,6 @@
 [submodule "pack/bundle/start/nerdtree"]
 	path = pack/bundle/start/nerdtree
 	url = http://github.com/scrooloose/nerdtree.git
-[submodule "pack/bundle/vinegar-nerdtree"]
-	path = pack/bundle/vinegar-nerdtree
+[submodule "pack/bundle/start/vinegar-nerdtree"]
+	path = pack/bundle/start/vinegar-nerdtree
 	url = https://github.com/dhruvasagar/vim-vinegar
