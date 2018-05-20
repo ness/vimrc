@@ -23,9 +23,6 @@
 [submodule "bundle/vim-misc"]
 	path = bundle/vim-misc
 	url = https://github.com/xolox/vim-misc.git
-[submodule "bundle/vim-snippets"]
-	path = bundle/vim-snippets
-	url = https://github.com/honza/vim-snippets
 [submodule "bundle/fugitive"]
 	path = bundle/fugitive
 	url = https://github.com/tpope/vim-fugitive
@@ -83,3 +80,6 @@
 [submodule "pack/bundle/start/ultisnips"]
 	path = pack/bundle/start/ultisnips
 	url = https://github.com/SirVer/ultisnips
+[submodule "pack/bundle/start/snippets"]
+	path = pack/bundle/start/snippets
+	url = https://github.com/honza/vim-snippets
