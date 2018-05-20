@@ -50,9 +50,6 @@
 [submodule "bundle/unite"]
 	path = bundle/unite
 	url = https://github.com/Shougo/unite.vim
-[submodule "bundle/vimproc"]
-	path = bundle/vimproc
-	url = https://github.com/Shougo/vimproc.vim
 [submodule "bundle/unite-tag"]
 	path = bundle/unite-tag
 	url = https://github.com/tsukkee/unite-tag
@@ -83,3 +80,6 @@
 [submodule "pack/bundle/start/ack"]
 	path = pack/bundle/start/ack
 	url = https://github.com/mileszs/ack.vim
+[submodule "pack/bundle/start/vimproc"]
+	path = pack/bundle/start/vimproc
+	url = https://github.com/Shougo/vimproc.vim
