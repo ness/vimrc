@@ -14,9 +14,6 @@
 	path = bundle/easytags
 	url = https://github.com/xolox/vim-easytags.git
 	irgnore = dirty
-[submodule "bundle/jedi-vim"]
-	path = bundle/jedi-vim
-	url = https://github.com/davidhalter/jedi-vim.git
 [submodule "bundle/pathogen"]
 	path = bundle/pathogen
 	url = https://github.com/tpope/vim-pathogen.git
@@ -83,3 +80,6 @@
 [submodule "pack/bundle/start/fugitive"]
 	path = pack/bundle/start/fugitive
 	url = https://github.com/tpope/vim-fugitive
+[submodule "pack/bundle/start/jedi"]
+	path = pack/bundle/start/jedi
+	url = https://github.com/davidhalter/jedi-vim.git
