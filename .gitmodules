@@ -32,12 +32,6 @@
 [submodule "bundle/move"]
 	path = bundle/move
 	url = https://github.com/matze/vim-move
-[submodule "bundle/unite"]
-	path = bundle/unite
-	url = https://github.com/Shougo/unite.vim
-[submodule "bundle/unite-tag"]
-	path = bundle/unite-tag
-	url = https://github.com/tsukkee/unite-tag
 [submodule "bundle/textobj_python"]
 	path = bundle/textobj_python
 	url = https://github.com/bps/vim-textobj-python
@@ -83,3 +77,9 @@
 [submodule "pack/bundle/start/autopep8"]
 	path = pack/bundle/start/autopep8
 	url = https://github.com/ness/vim-autopep8
+[submodule "pack/bundle/start/unite"]
+	path = pack/bundle/start/unite
+	url = https://github.com/Shougo/unite.vim
+[submodule "pack/bundle/start/unite-tag"]
+	path = pack/bundle/start/unite-tag
+	url = https://github.com/tsukkee/unite-tag
