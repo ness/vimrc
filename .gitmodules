@@ -8,12 +8,6 @@
 [submodule "bundle/test_vim"]
 	path = bundle/test_vim
 	url = https://github.com/janko-m/vim-test
-[submodule "bundle/textobj_python"]
-	path = bundle/textobj_python
-	url = https://github.com/bps/vim-textobj-python
-[submodule "bundle/textobj_user"]
-	path = bundle/textobj_user
-	url = https://github.com/kana/vim-textobj-user
 [submodule "pack/bundle/start/nerdtree"]
 	path = pack/bundle/start/nerdtree
 	url = http://github.com/scrooloose/nerdtree.git
@@ -80,3 +74,9 @@
 [submodule "pack/bundle/start/tagbar"]
 	path = pack/bundle/start/tagbar
 	url = https://github.com/majutsushi/tagbar
+[submodule "pack/bundle/start/textobj_user"]
+	path = pack/bundle/start/textobj_user
+	url = https://github.com/kana/vim-textobj-user
+[submodule "pack/bundle/start/textobj_python"]
+	path = pack/bundle/start/textobj_python
+	url = https://github.com/bps/vim-textobj-python
