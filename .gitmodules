@@ -18,9 +18,6 @@
 [submodule "bundle/test_vim"]
 	path = bundle/test_vim
 	url = https://github.com/janko-m/vim-test
-[submodule "bundle/move"]
-	path = bundle/move
-	url = https://github.com/matze/vim-move
 [submodule "bundle/textobj_python"]
 	path = bundle/textobj_python
 	url = https://github.com/bps/vim-textobj-python
@@ -81,3 +78,6 @@
 [submodule "pack/bundle/start/lsp"]
 	path = pack/bundle/start/lsp
 	url = https://github.com/prabirshrestha/vim-lsp
+[submodule "pack/bundle/start/move"]
+	path = pack/bundle/start/move
+	url = https://github.com/matze/vim-move
