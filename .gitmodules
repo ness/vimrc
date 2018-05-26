@@ -10,16 +10,9 @@
 	path = _pathogen
 	url = http://github.com/tpope/vim-pathogen.git
 	irgnore = dirty
-[submodule "bundle/easytags"]
-	path = bundle/easytags
-	url = https://github.com/xolox/vim-easytags.git
-	irgnore = dirty
 [submodule "bundle/pathogen"]
 	path = bundle/pathogen
 	url = https://github.com/tpope/vim-pathogen.git
-[submodule "bundle/vim-misc"]
-	path = bundle/vim-misc
-	url = https://github.com/xolox/vim-misc.git
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = https://github.com/scrooloose/syntastic
@@ -83,3 +76,9 @@
 [submodule "pack/bundle/start/unite-tag"]
 	path = pack/bundle/start/unite-tag
 	url = https://github.com/tsukkee/unite-tag
+[submodule "pack/bundle/start/easytags"]
+	path = pack/bundle/start/easytags
+	url = https://github.com/xolox/vim-easytags.git
+[submodule "pack/bundle/start/xolox-misc"]
+	path = pack/bundle/start/xolox-misc
+	url = https://github.com/xolox/vim-misc.git
