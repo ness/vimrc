@@ -1,8 +1,3 @@
-"loading bundles - plugins
-runtime bundle/pathogen/autoload/pathogen.vim
-call pathogen#infect()
-
-
 "plugin settings
 """"""""""""""""""""""""
 
