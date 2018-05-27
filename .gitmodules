@@ -2,12 +2,6 @@
 	path = _pathogen
 	url = http://github.com/tpope/vim-pathogen.git
 	irgnore = dirty
-[submodule "bundle/pathogen"]
-	path = bundle/pathogen
-	url = https://github.com/tpope/vim-pathogen.git
-[submodule "bundle/test_vim"]
-	path = bundle/test_vim
-	url = https://github.com/janko-m/vim-test
 [submodule "pack/bundle/start/nerdtree"]
 	path = pack/bundle/start/nerdtree
 	url = http://github.com/scrooloose/nerdtree.git
