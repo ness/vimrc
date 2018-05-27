@@ -1,86 +1,76 @@
-[submodule "bundle/localvimrc"]
-	path = bundle/localvimrc
-	url = http://github.com/embear/vim-localvimrc
-	irgnore = dirty
-[submodule "bundle/nerdtree"]
-	path = bundle/nerdtree
-	url = http://github.com/scrooloose/nerdtree.git
-	irgnore = dirty
-[submodule "bundle/surround"]
-	path = bundle/surround
-	url = http://github.com/tpope/vim-surround.git
-	irgnore = dirty
 [submodule "_pathogen"]
 	path = _pathogen
 	url = http://github.com/tpope/vim-pathogen.git
 	irgnore = dirty
-[submodule "bundle/easytags"]
-	path = bundle/easytags
-	url = https://github.com/xolox/vim-easytags.git
-	irgnore = dirty
-[submodule "bundle/jedi-vim"]
-	path = bundle/jedi-vim
-	url = https://github.com/davidhalter/jedi-vim.git
-[submodule "bundle/pathogen"]
-	path = bundle/pathogen
-	url = https://github.com/tpope/vim-pathogen.git
-[submodule "bundle/vim-misc"]
-	path = bundle/vim-misc
-	url = https://github.com/xolox/vim-misc.git
-[submodule "bundle/ultisnips"]
-	path = bundle/ultisnips
-	url = git://github.com/SirVer/ultisnips.git
-[submodule "bundle/vim-snippets"]
-	path = bundle/vim-snippets
-	url = https://github.com/honza/vim-snippets
-[submodule "bundle/fugitive"]
-	path = bundle/fugitive
-	url = https://github.com/tpope/vim-fugitive
-[submodule "bundle/syntastic"]
-	path = bundle/syntastic
-	url = https://github.com/scrooloose/syntastic
-[submodule "bundle/tagbar"]
-	path = bundle/tagbar
-	url = https://github.com/majutsushi/tagbar
-[submodule "bundle/ag"]
-	path = bundle/ag
-	url = https://github.com/rking/ag.vim
-[submodule "bundle/autopep8"]
-	path = bundle/autopep8
-	url = https://github.com/tell-k/vim-autopep8
-[submodule "bundle/test_vim"]
-	path = bundle/test_vim
-	url = https://github.com/janko-m/vim-test
-[submodule "bundle/move"]
-	path = bundle/move
-	url = https://github.com/matze/vim-move
-[submodule "bundle/unite"]
-	path = bundle/unite
-	url = https://github.com/Shougo/unite.vim
-[submodule "bundle/vimproc"]
-	path = bundle/vimproc
-	url = https://github.com/Shougo/vimproc.vim
-[submodule "bundle/unite-tag"]
-	path = bundle/unite-tag
-	url = https://github.com/tsukkee/unite-tag
-[submodule "bundle/vinegar-nerdtree"]
-	path = bundle/vinegar-nerdtree
+[submodule "pack/bundle/start/nerdtree"]
+	path = pack/bundle/start/nerdtree
+	url = http://github.com/scrooloose/nerdtree.git
+[submodule "pack/bundle/start/vinegar-nerdtree"]
+	path = pack/bundle/start/vinegar-nerdtree
 	url = https://github.com/dhruvasagar/vim-vinegar
-[submodule "bundle/textobj_python"]
-	path = bundle/textobj_python
-	url = https://github.com/bps/vim-textobj-python
-[submodule "bundle/textobj_user"]
-	path = bundle/textobj_user
-	url = https://github.com/kana/vim-textobj-user
-[submodule "bundle/gitgutter"]
-	path = bundle/gitgutter
+[submodule "pack/bundle/start/ack"]
+	path = pack/bundle/start/ack
+	url = https://github.com/mileszs/ack.vim
+[submodule "pack/bundle/start/vimproc"]
+	path = pack/bundle/start/vimproc
+	url = https://github.com/Shougo/vimproc.vim
+[submodule "pack/bundle/start/ultisnips"]
+	path = pack/bundle/start/ultisnips
+	url = https://github.com/SirVer/ultisnips
+[submodule "pack/bundle/start/snippets"]
+	path = pack/bundle/start/snippets
+	url = https://github.com/honza/vim-snippets
+[submodule "pack/bundle/start/gitgutter"]
+	path = pack/bundle/start/gitgutter
 	url = https://github.com/airblade/vim-gitgutter
-[submodule "bundle/railscasts_colors"]
-	path = bundle/railscasts_colors
-	url = https://github.com/jpo/vim-railscasts-theme
-[submodule "bundle/commentary"]
-	path = bundle/commentary
+[submodule "pack/bundle/start/fugitive"]
+	path = pack/bundle/start/fugitive
+	url = https://github.com/tpope/vim-fugitive
+[submodule "pack/bundle/start/jedi"]
+	path = pack/bundle/start/jedi
+	url = https://github.com/davidhalter/jedi-vim.git
+[submodule "pack/bundle/start/autopep8"]
+	path = pack/bundle/start/autopep8
+	url = https://github.com/ness/vim-autopep8
+[submodule "pack/bundle/start/unite"]
+	path = pack/bundle/start/unite
+	url = https://github.com/Shougo/unite.vim
+[submodule "pack/bundle/start/unite-tag"]
+	path = pack/bundle/start/unite-tag
+	url = https://github.com/tsukkee/unite-tag
+[submodule "pack/bundle/start/easytags"]
+	path = pack/bundle/start/easytags
+	url = https://github.com/xolox/vim-easytags.git
+[submodule "pack/bundle/start/xolox-misc"]
+	path = pack/bundle/start/xolox-misc
+	url = https://github.com/xolox/vim-misc.git
+[submodule "pack/bundle/start/localvimrc"]
+	path = pack/bundle/start/localvimrc
+	url = http://github.com/embear/vim-localvimrc
+[submodule "pack/bundle/start/commentary"]
+	path = pack/bundle/start/commentary
 	url = https://github.com/tpope/vim-commentary
-[submodule "bundle/lsp"]
-	path = bundle/lsp
+[submodule "pack/bundle/start/lsp"]
+	path = pack/bundle/start/lsp
 	url = https://github.com/prabirshrestha/vim-lsp
+[submodule "pack/bundle/start/move"]
+	path = pack/bundle/start/move
+	url = https://github.com/matze/vim-move
+[submodule "pack/bundle/start/colors-railscasts"]
+	path = pack/bundle/start/colors-railscasts
+	url = https://github.com/jpo/vim-railscasts-theme
+[submodule "pack/bundle/start/surround"]
+	path = pack/bundle/start/surround
+	url = http://github.com/tpope/vim-surround.git
+[submodule "pack/bundle/start/syntastic"]
+	path = pack/bundle/start/syntastic
+	url = https://github.com/scrooloose/syntastic
+[submodule "pack/bundle/start/tagbar"]
+	path = pack/bundle/start/tagbar
+	url = https://github.com/majutsushi/tagbar
+[submodule "pack/bundle/start/textobj_user"]
+	path = pack/bundle/start/textobj_user
+	url = https://github.com/kana/vim-textobj-user
+[submodule "pack/bundle/start/textobj_python"]
+	path = pack/bundle/start/textobj_python
+	url = https://github.com/bps/vim-textobj-python
